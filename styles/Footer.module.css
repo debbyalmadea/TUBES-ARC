@@ -1,0 +1,65 @@
+.container {
+  height: 250px;
+  background-color: #222;
+  display: flex;
+}
+
+.item {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item:last-child {
+  flex: 2;
+  padding: 50px;
+}
+
+.card {
+  flex: 1;
+  padding: 20px;
+}
+
+.title {
+  font-size: 18px;
+  color: #fdd000;
+}
+
+.tmdb {
+  width: 40%;
+  height: auto;
+}
+
+.notice {
+  width: 40%;
+  height: auto;
+  font-size: 14px;
+}
+
+.text {
+  color: lightgray;
+}
+
+
+@media screen and (max-width: 480px) {
+  .container {
+    height: auto;
+    text-align: center;
+  }
+  .item:first-child {
+    display: none;
+  }
+
+  .item {
+    flex-direction: column;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .text {
+    font-size: 20px;
+  }
+}
