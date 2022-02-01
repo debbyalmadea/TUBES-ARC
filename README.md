@@ -18,4 +18,4 @@ Download semua file dan framework Next.js lalu membukanya melalui command prompt
 
 ## MAIN PAGE
 
-![main page](https://ibb.co/gm9hZr9)
+![main page](https://github.com/wwwscarlet/TUBES-ARC/blob/main/screenshot-localhost_3000-2022.02.01-22_49_36.png?raw=true)
